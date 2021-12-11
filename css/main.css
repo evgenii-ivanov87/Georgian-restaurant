@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000;
   font-family: Roboto, sans-serif;
   font-size: 14;
   letter-spacing: 0.03em;
@@ -463,6 +463,9 @@ ul {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
 }
 
 .header .container {
@@ -477,6 +480,11 @@ ul {
   }
   .header-link {
     margin-right: 30px;
+  }
+  .header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
   }
 }
 
@@ -522,25 +530,19 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../../images/Mob/Rectangle1.jpg);
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-width: 1200px) {
-  .hero {
-    background-image: url(../../images/Mob/Rectangle1.jpg);
+    background-image: url(../../images/desc/Rectangle1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media screen and (max-width: 1199px) {
   .hero {
-    background-image: url(../../images/Mob/Rectangle1.jpg);
-  }
-}
-
-@media screen and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (max-width: 1199px) and (min-resolution: 192dpi), screen and (max-width: 1199px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../../images/Mob/Rectangle1.jpg);
+    background-image: url(../../images/desc/Rectangle1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

@@ -92,6 +92,9 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
 
   .container {
     display: flex;
@@ -109,6 +112,12 @@
   }
   .header-link {
     margin-right: 30px;
+  }
+
+  .header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
   }
 }
 
